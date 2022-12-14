@@ -1,0 +1,9 @@
+.projectItem p {
+    font-size: 22px;
+    color:  #f9f9f9;
+    align-content: center;
+}
+
+.projectItem {
+    background-color: #3597c4;
+}
