@@ -4,6 +4,7 @@ import { ProjectList } from "../data/ProjectList";
 import { BsGithub } from 'react-icons/bs';
 import "./ProjectDisplay.css";
 
+
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
@@ -11,9 +12,11 @@ function ProjectDisplay() {
     <div className="projectDisplay">
       <h1> {project.name}</h1>
       <div className="projectImageDiv">
+        <div className="bruh">
         <a  href = {project.websiteLink}>
         <img src={project.image2} width = "300px" height = "300px" className="icon"/>
         </a>
+        </div>
         <img src={project.image} width = "300px" height = "300px" className="reg"/>
         <img src={project.image3} width = "300px" height = "300px" className="reg"/>
         <img src={project.image4} width = "300px" height = "300px" className="reg"/>

@@ -13,7 +13,7 @@ function Resume() {
       <IoNewspaper size={38} color = "white" fontSize="25px" alt = "This is linked to a fake resume"/>
       </a>
       <p className="resumeIntro">
-        *The resume linked above is a random anonymized resume that is not representative of my professional experience.
+        *The above resume is a random anonymized resume this is not representative of my professional experience. Will be changed after anonymized grading.
       </p>
       <h1>Education</h1>
       <div className= "resumeInfo">

@@ -10,7 +10,7 @@
     align-items: center;
     text-align: center;
     background: rgb(38,38,38);
-    background: linear-gradient(0deg, rgba(38,38,38,1) 20%, rgba(42,64,83,1) 90%);
+    background: linear-gradient(0deg, rgba(38,38,38,1) 0%, rgba(42,64,83,1) 90%);
   }
   
   .aboutMeDiv h2 {

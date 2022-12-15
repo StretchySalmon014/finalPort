@@ -23,6 +23,7 @@ export const ProjectList = [
       image2: pokeball,
       image3: pokedeck2,
       image4: pokedeck3,
+      instructions: "Click Pokeball",
       description: "My PokeDeck is a project I built for the CSCI 1300 Development Assignment. The assignment's motivation was to better understand React and its capabilities to manage state and render such state throughout a user’s session. The main requirements of the project included creating a theme for my list-based interface and an aggregator interface that included at least 2 filtering categories, 1 sorting feature, an aggregator section (such as a cart or deck), and 12 item cards that displayed an item’s image, categories that our filters used, sortable fields, a property that would be aggregated (such as price), and a button to add/remove from an aggregator.             The current project has 15 pokemon available that all have attributes such as type, a pokemon’s ability, its generation, and a CP level (inspired by Pokemon Go). The available pokemon can be sorted by CP and/or filtered by Generation and Type. The aggregator in this assignment is a deck of pokemon–which is currently unbounded in size. Lastly, the property that is aggregated is the cumulative CP of the chosen pokemon within a user’s deck.",
       building: "Building this project was relatively difficult. At the time of creating this project, I had not programmed in React in over a year. Granted, I had just completed a prior React lab; however, the result of the prior lab met the minimal functionality and was not at all aesthetically pleasing. With this, I decided to start from scratch. For the sake of time, I reduced the scale of the project in terms of functionality and content. Initially, I thought to include more than 15 pokemon and enforce a limit to a user’s deck size; however, I thought that these features could be implemented later on if I chose to iterate on this project. The project is relatively simple. There are state of the project is defined by  a list of pokeItems that are a result of parsing a custom JSON object containing information for all the attributes on display and pokemon art. From there the state is also assisted by the inclusion of various boolean values that change throughout the life-time of the page. For example, if a user was to select a filter for Fire type Generation 1 pokemon the byFire and byGen1 variables in our state will be set to reflect such change. Additionally, this project is helped immensely by the useReducer hook. The page is constructed by piecing together components used to represent the Card, Filters, Home page, and Header.",
       lesson: "Overall this project was remarkably worthwhile and entertaining. The biggest regrets that I still have regarding this project are that I did not iterate on previous work, such as my React Lab submission, and the fact that same functionality has yet to be implemented. If I were to continue iterating on this project I would implement a various things such as: constraining the size of a user’s deck, expanding the available pokemon, adding filters, and displaying the average CP within a deck rather than simplifying adding up the CP within a deck.",
@@ -41,6 +42,8 @@ export const ProjectList = [
       lesson: "This lab assignment was fundamental in building my skills working in Figma; however, I do not see myself re-visiting this assignment, unless I choose to implement this into a fully functional application.",
       skills: "Figma - High-Fi Protoytping",
       link: "https://www.figma.com/file/FtXfXnpVy8Z20rsrDk3YQ1/SPetify?node-id=0%3A1&t=j0b55sIDwLzOMPd6-1",
+      websiteLink: "https://www.figma.com/file/FtXfXnpVy8Z20rsrDk3YQ1/SPetify?node-id=0%3A1&t=j0b55sIDwLzOMPd6-1",
+      
     },
     {
       name: "Testing & Eye Tracking",
@@ -53,6 +56,7 @@ export const ProjectList = [
       lesson: "Upon reflecting on this project, I would say there are 2 big takeaways from this project. First, this project was a great practice in developing and testing new UIs that are most effective and accessible to users. However, if I were to do this project again, I would allocate more time to creating more distinct UIs by changing the color palette, adding more content (more text than images or vice versa), or changing the size of the content on the page. Secondly, I would have taken the time to create more complex tasks for test participants to complete–hopefully, this would give us more insight to the differences between both our UIs.",
       skills: "Figma - High-Fi Prototyping - User Testing",
       link: "https://www.figma.com/file/AV59vIrFmBKUyusjmk3kLu/PairB?node-id=0%3A1&t=JBTLSl2ox6kNyxle-1",
+      websiteLink: "https://www.figma.com/file/AV59vIrFmBKUyusjmk3kLu/PairB?node-id=0%3A1&t=JBTLSl2ox6kNyxle-1",
     },
     {
       name: "Personas & Storyboarding",
@@ -60,11 +64,13 @@ export const ProjectList = [
       image2: board2,
       image3: board3,
       image4: board,
+      instructions: "Explore",
       description: "This project is the first project given in CSCI 1300 entitled Personas and Storyboarding.  For this project I was tasked with observing real users interacting with a chosen interface, interviewing these individuals about their experiences, creating personas based on these users, and illustrating a storyboard for one of the created personas. This is a classic UX task intended to provide designers with an idea of who the customer/user that will use their product. For this project, my chosen interfaces were the washers/dryers within my dorm. I specifically chose to investigate how students used the washers and dryers within my dorm given that half of these machines were newly installed and the payment machines did not charge for laundry. Given these factors, of new machines and a broken payment system, there were cases of students not knowing how to start the machine, not knowing what to do when the payment box presented an error, and not knowing whether they needed an ID to clean their laundry. For context, the current process of simply placing one’s laundry in a machine and choosing a cycle is different from the previous year in which a student would have to swipe on a separate payment prior to selecting a cycle. Previously, one would have to pay for laundry, but now the laundry is free. There were multiple variables that were changed between now and the last year.",
       building: "Gathering observations, interviewing users, and creating personas were definitely fun. However, this project was haphazardly put together. My biggest regret was piecing together this present page prior to the deadline without much planning behind the theme or structure of the page. It is even evident that the purpose of this page was not flushed out at the time of publishing. Initially, I thought this Personas and Storybuiliding display page would be used for my final portfolio–however, this is clearly not the case as of now. Building the page was my attempt to create a simple HTML+CSS page to turn in. However, I could put more thought into the margins or spacing of the content presented. Furthermore, my handwriting present in the figures throughout the page is not clearly legible. Therefore, if given the opportunity to recreate this Personas and Storyboarding page I would rebuild it in a React and give more thought to the organization and structure of the content.",
       lesson: "Building a page in HTML and CSS may be relatively quick and lightweight; however, after reflecting on this page I would prefer to make the page in React. Furthermore, a lesson that I carry from this page is to more intentional about the layout and presentation of a the content on a given page–rather than just the content.",
       skills: "HTML - CSS",
       link: "https://github.com/StretchySalmon014/personas",
+      websiteLink: "https://stretchysalmon014.github.io/personas/website",
     }, {
       name: "Personal Project Loading...",
       image: construction,
@@ -76,6 +82,7 @@ export const ProjectList = [
       lesson: "Coming Soon",
       skills: "Coming Soon",
       link: "https://github.com/StretchySalmon014",
+      websiteLink: "https://github.com/StretchySalmon014",
     },  {
       name: "Personal Project Loading...",
       image: construction,
@@ -87,5 +94,6 @@ export const ProjectList = [
       lesson: "Coming Soon",
       skills: "Coming Soon",
       link: "https://github.com/StretchySalmon014",
+      websiteLink: "https://github.com/StretchySalmon014",
     }
   ];
