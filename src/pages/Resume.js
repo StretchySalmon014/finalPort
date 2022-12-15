@@ -18,7 +18,7 @@ function Resume() {
       <h1>Education</h1>
       <div className= "resumeInfo">
         <p>
-          <b>Brown University</b> · Providence, RI · Aug 2020 - May 2023
+          <b>ABC University</b> · Providence, RI · Aug 20XX - May 20XX
         </p>
         <p>
         Computer Science ScB · Systems & Security 
@@ -27,22 +27,22 @@ function Resume() {
       <h1>Work Experience</h1>
       <div className= "resumeInfo">
         <p>
-          <b>Microsoft</b> · Redmond, WA · May 2021 - July 2021
+          <b>Company A</b> · Redmond, WA · May 20XX - July 20XX
         </p>
         <p>
-        Software Engineer Intern · Microsoft Azure
+        Software Engineer Intern · Company A Team
         </p>
         <p>
-          <b>Amazon</b> · Santa Clara, CA · May 2020 - August 2020
+          <b>Company B</b> · Santa Clara, CA · May 20XX- August 20XX
         </p>
         <p>
-        Research Engineer Intern · AWS
+        Research Engineer Intern · Company B Team
         </p>
         <p>
-          <b>Brown University</b> · Providence, RI · October 2020 - July 2021
+          <b>Company C</b> · Providence, RI · October 20XX - July 20XX
         </p>
         <p>
-        Software Engineering Research Intern · Computational Biology Core
+        Software Engineering Research Intern · Company C Team
         </p>
       </div>
       <h1>Community Engagement</h1>
@@ -50,13 +50,13 @@ function Resume() {
           <b>Undergraduate Teaching Assistant</b>
       </p>
       <p>
-      CSCI 0330 Introduction to Computer Systems · CSCI 1800 Cybersecurity and International Relations
+      CSCI XXXX Course Name A · CSCI XXXX Course Name B
       </p>
       <p>
-          <b>Mosaic+ Transition Program Leader · Mosaic+ Transition Teaching Assistant</b>
+          <b>XXX XXXX Program Leader · XXXX Program Teaching Assistant</b>
       </p>
       <p>
-      Mosaic+ Transition Pre-Orientation Program 
+      XXXX Transition Pre-Orientation Program 
       </p>
       <p>Providence, RI · john_doe@brown.edu · (123) 456 - 7890 </p>
     </div>
