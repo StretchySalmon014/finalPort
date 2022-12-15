@@ -18,7 +18,9 @@ function AboutMe() {
         For now, I would love to share some information about myself that will be present in the final iteration of this portfolio.
         <br/> <br/> <br/>
         Currently, I am a fourth-year Brown University student pursuing an ScB in Computer Science--focusing in the Systems and Security tracks. I'm currently concentrating in Computer Science with the intention of becoming a Software Engineer.
-        As of now my post-graduation my plans include working in Microsoft's Gaming Org as a back-end software engineer. *Photo will be added above soon*
+        As of now my post-graduation plans include working in Microsoft's Gaming Org as a software engineer. 
+        <br/> <br/>
+        *Photo will be added above soon*
         </p>
       </div>
     </div>
